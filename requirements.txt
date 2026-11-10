@@ -1,1 +1,10 @@
+fastapi
 uvicorn[standard]
+sqlalchemy
+psycopg[binary]
+pydantic
+python-dotenv
+langchain-groq
+langgraph
+chromadb
+pytest
