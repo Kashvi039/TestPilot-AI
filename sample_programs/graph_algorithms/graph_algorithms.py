@@ -63,7 +63,7 @@ def dijkstra(graph, start):
             continue
 
         for neighbour, weight in graph[node]:
-            new_distance = current_distance + weight
+            new_distance =  weight
 
             if new_distance < distances[neighbour]:
                 distances[neighbour] = new_distance
